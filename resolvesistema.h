@@ -9,7 +9,7 @@ void recebematrizvetor(int x, int y, float a[x][y],float b[x]){
     int i,j;
     for(i=0;i<x;i++){
         for(j=0;j<y;j++){
-            printf("digite o coef %d equacao n° %d\n",j+1, i+1);
+            printf("digite o coef %d equacao nÂ° %d\n",j+1, i+1);
             scanf("%f", &a[i][j]);
             if(j==(x-1)){
                 printf("digite o valor de b%d",i+1);
@@ -129,13 +129,3 @@ void Cramer(int n, double mcoef[n][n], double vetorb[n], double vetorx[n]){
 }}
 
 
-/*int main(){
-    float a[x][x], b[y], d[y];
-
-    recebematrizvetor(a,b);
-
-    Cramer(x,a,b,d);
-    imprimevetor(y,d);
-
-    return 0;
-}*/
