@@ -1,5 +1,4 @@
-//e vamos de interpolação POLINOMIAL COMPLETASSO E SAI A FUNÇÃO
-//av8 rc3
+
 #include <stdio.h>
 #include <math.h>
 #include <malloc.h>
@@ -39,7 +38,7 @@ int cont=0;
         fclose(arquivo);
         return cont;
 }else{
-    	printf("Arquivo não encontrado ou vazio.");
+    	printf("Arquivo nÃ£o encontrado ou vazio.");
     	fclose(arquivo);
     	return 0;
 	}
